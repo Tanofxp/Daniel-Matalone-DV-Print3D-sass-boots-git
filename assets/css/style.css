@@ -11118,6 +11118,65 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.ico-twitter, .ico-instagram, .ico-youtube, .ico-facebook {
+  background-color: #55ACEE;
+  border: #55ACEE;
+}
+
+.ico-facebook {
+  background-color: #3A5795;
+  border: #3A5795;
+}
+
+.ico-instagram {
+  background-color: #8f348f;
+  border: #8f348f;
+}
+
+.ico-youtube {
+  background-color: red;
+  border: red;
+}
+
+.ico-twitter, .ico-instagram, .ico-youtube, .ico-facebook {
+  border-radius: 20%;
+}
+.ico-twitter:hover, .ico-instagram:hover, .ico-youtube:hover, .ico-facebook:hover {
+  color: crimson;
+}
+
+.ico-facebook:hover {
+  color: aliceblue;
+}
+
+.ico-youtube:hover {
+  color: black;
+}
+
+.ico-instagram:hover {
+  color: yellow;
+}
+
+.ico-twitter, .ico-facebook, .ico-youtube, .ico-instagram {
+  width: 30px;
+  height: 30px;
+}
+
+.ico-facebook {
+  width: 30px;
+  height: 30px;
+}
+
+.ico-youtube {
+  width: 30px;
+  height: 30px;
+}
+
+.ico-instagram {
+  width: 30px;
+  height: 30px;
+}
+
 .logo1 {
   width: 70px;
   height: 70px;

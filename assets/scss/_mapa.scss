@@ -1,0 +1,17 @@
+$redes:(
+
+    twitter: #55ACEE,
+    facebook: #3A5795,
+    instagram: rgb(143, 52, 143),
+    youtube: red,
+
+);
+
+@each $nombres, $colorsito in $redes {
+    // fragmento que repite
+    .ico-#{$nombres} {
+        background-color: $colorsito;
+        border:$colorsito;
+    }
+    
+}

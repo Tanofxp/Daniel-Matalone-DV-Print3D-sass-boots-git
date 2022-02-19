@@ -1,0 +1,30 @@
+
+
+.ico-twitter {
+    border-radius: 20%;
+    &:hover{
+        color: crimson;
+    }
+}
+
+.ico-facebook{
+    @extend .ico-twitter;
+    &:hover{
+        color: aliceblue;
+    }
+
+}
+
+.ico-youtube{
+    @extend .ico-twitter;
+    &:hover{
+        color: black;
+    }
+}
+
+.ico-instagram{
+    @extend .ico-twitter;
+    &:hover{
+        color: yellow;
+    }
+}

@@ -1,0 +1,23 @@
+@mixin tamanio($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+
+.ico-twitter {
+    @include tamanio(30px, 30px)
+    
+}
+
+.ico-facebook{
+    @include tamanio(30px, 30px)
+
+}
+
+.ico-youtube{
+    @include tamanio(30px, 30px)
+}
+
+.ico-instagram{
+    @include tamanio(30px, 30px)
+}
