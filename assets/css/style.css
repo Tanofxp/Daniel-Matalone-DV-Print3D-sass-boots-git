@@ -642,7 +642,6 @@ progress {
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
-    
   }
 }
 @media (min-width: 1200px) {
@@ -11221,6 +11220,6 @@ body .cover-container {
 
 /*# sourceMappingURL=style.css.map */
 
-.br {
-  padding-top: 40px;
+#terminos {
+  border: solid 2px white;
 }
