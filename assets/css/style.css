@@ -11223,3 +11223,8 @@ body .cover-container {
 #terminos {
   border: solid 2px white;
 }
+
+.mediaFlex{
+  display: flex;
+  justify-content: center;
+}
